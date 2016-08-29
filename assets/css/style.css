@@ -1,0 +1,36 @@
+body{
+	 background-image: url("../images/mk1.jpg")
+
+}
+h1{
+	text-align:center;
+	text-overflow: all;
+}
+.jumbotron{
+	opacity:0.3%;
+}
+.btn{
+	list-style-type: none;
+	overflow:hidden;
+	max-width: 50px;
+    max-height: 50px;
+    float: left;
+}
+#char1{
+	background-image:  url("../images/scorpio.jpg");
+	padding: 130px;
+}
+#char2{
+	background-image: url("../images/subzero.jpg");
+	padding: 130px;
+}
+#char3{
+	background-image: url("../images/raiden.jpg");
+	padding: 130px;
+
+}
+#char4{
+	background-image: url("../images/goro.jpg");
+	padding: 130px;
+	
+}
