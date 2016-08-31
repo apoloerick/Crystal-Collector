@@ -1,46 +1,33 @@
 body{
-	 background-image: url("../images/mk1.jpg")
-
+	background-image: url("../images/background.jpg");
+	overflow:auto;
 }
 h1{
 	text-align:center;
-	text-overflow: all;
+	
+}
+button {
+	
 }
 .jumbotron{
 	opacity:0.3%;
 }
-.btn{
-	background-image: center;
-	background-image-size: 80px 60px;
-	list-style-type: none;
-	overflow:hidden;
-	max-width: 300px;
-    max-height: 300px;
+.character{
     float: left;
-	
+    width: 150px;
+	height: 150px;
 }
-#char1{
-	background-size: auto;
-	background-repeat: no-repeat;
-	
-}
-#char2{
-	background-repeat: no-repeat;
-	
-}
-#char3{
-	background-image
-	background-repeat: no-repeat;
-	
+.character:hover{background-color: red;}
+.character:active{ 
+	background-color: #3e8e41;
+ 	box-shadow: 0 5px #666;
+ 	transform: translateY(4px);}
 
-}
-#char4{
-	background-image
-	background-repeat: no-repeat;
+.btn button{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: black;
 	
+	}
 	
-}
-.character {
-	width: 200px;
-	height: auto;
-}
