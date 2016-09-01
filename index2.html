@@ -2,18 +2,22 @@
 <html>
 <head>
 	<title>Gem Collector</title>
+	<!-- css reset -->
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	
+	<!-- css cdn -->
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- javascript cdn -->
 	<link rel="stylesheet" type="javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+	<!-- style css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style1.css">
 </head>
 <body>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<h1>Crystal Collector</h1>
+			<h1 id="head">Crystal Collector</h1>
 		</div>
 	</div>
 	<div class="row">
@@ -34,17 +38,17 @@
 	</div>
 	<!-- number generated -->
 <div class="row">
-		<div class="col-md-6">
-		<p><h2>random number: </h2></p>
+		<div class="col-md-6" id="random">
+		<p><h2> Random number: </h2></p>
 		</div>
 	<!-- wins and losses	 -->
 	<div class="col-md-6">
 
-		<div class="row">
-			<h3>wins</h3>
+		<div class="row" >
+			<h3 id="wins">Wins: </h3>
 		</div>
-		<div class="row">
-			<h3>looses</h3>
+		<div class="row" >
+			<h3 id="losses">Looses: </h3>
 		</div>
 	</div>
 </div>
@@ -53,17 +57,17 @@
 		<div class="container">
 		<div class="col-md-12" id="holder">
   <!-- <button type="button" class="btn btn-default"><img src="assets/images/ico.png"></button> -->
-  <button type="button" class="kill"><img class="img-responsive" src="assets/images/tetra.gif"></button>
-  <button type="button" class="kill"><img class="img-responsive" src="assets/images/octa.gif"></button>
-  <button type="button" class="kill"><img class="img-responsive" src="assets/images/cube.png"></button>
-  <button type="button" class="kill"><img class="img-responsive" src="assets/images/dodeca.jpg"></button>
+  <button type="button" class="kill" id="gem0"><img class="img-responsive" src="assets/images/tetra.gif"></button>
+  <button type="button" class="kill" id="gem1"><img class="img-responsive" src="assets/images/octa.gif"></button>
+  <button type="button" class="kill" id="gem2"><img class="img-responsive" src="assets/images/cube.png"></button>
+  <button type="button" class="kill" id="gem3"><img class="img-responsive" src="assets/images/dodeca.jpg"></button>
   </div>
 			
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6">
-		<h2>Your total score is: </h2>
+		<div class="col-md-6" >
+		<h2 id="total">Your total score is: </h2>
 		</div>
 
 		<div class="col-md-6">
@@ -72,4 +76,5 @@
 	</div>
 </div>
 </body>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </html>
