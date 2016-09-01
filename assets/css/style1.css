@@ -1,11 +1,15 @@
 body{
-	background-image: url("../images/background.png");
+	background-image: url("../images/giphy.gif");
 	overflow:auto;
+	background-image: no-repeat;
 	}
 h1{
 	text-align:center;
 	
 	}
+p{
+	color: white;
+}
 head{ background-color:gray;
 
 	}
@@ -31,8 +35,8 @@ img{
 
 	}
 .row{
-	
-	color: black;
+
+	color: white;
 
 	}
 .kill{
@@ -43,9 +47,12 @@ img{
 	margin: 0;
 }
 #random{
-	font-size: 40px;
+	font-size: 60px;
 	font-weight: bold;
+	color: olive;
 }
+h2{
 
+}
 
 	

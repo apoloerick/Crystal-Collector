@@ -1,4 +1,18 @@
 $(document).ready(function(){
+
+
+	// Gets Link for Theme Song
+	        var audioElement = document.createElement('audio');
+	        audioElement.setAttribute('src', 'assets/images/120_super-high-melody-ringing.wav');
+
+			// Theme Button
+			$(".themeButton").on("click", function(){
+        		audioElement.play();
+			});
+
+			$(".pauseButton").on("click", function(){
+        		audioElement.pause();
+			});
 // variables
 	var win =0;
 	var losses =0;
@@ -24,7 +38,7 @@ $(document).ready(function(){
 			totalguess=0;
 			$("#totalguess").html(totalguess);
 			win++;
-			$("#wins").html(win);
+			$("#wins").html("Wins: "+" "+win);
 			randnumber =Math.floor(Math.random()*101)+19;
 			$("#random").html(randnumber);
 			blue =Math.floor(Math.random()*11)+1;
@@ -35,7 +49,7 @@ $(document).ready(function(){
 			totalguess=0;
 			$("#totalguess").html(totalguess);
 			losses++;
-			$("#losses").html(losses);
+			$("#losses").html("Losses:" + " " +losses);
 			 randnumber =Math.floor(Math.random()*101)+19;
 			$("#random").html(randnumber);
 			blue =Math.floor(Math.random()*11)+1;
@@ -57,7 +71,7 @@ $(document).ready(function(){
 			totalguess=0;
 			$("#totalguess").html(totalguess);
 			win++;
-			$("#wins").html(win);
+			$("#wins").html("Wins: "+" "+win);
 			randnumber =Math.floor(Math.random()*101)+19;
 			$("#random").html(randnumber);
 			red =Math.floor(Math.random()*11)+1;
@@ -68,7 +82,7 @@ $(document).ready(function(){
 			totalguess=0;
 			$("#totalguess").html(totalguess);
 			losses++;
-			$("#losses").html(losses);
+			$("#losses").html("Losses:" + " " +losses);
 			 randnumber =Math.floor(Math.random()*101)+19;
 			$("#random").html(randnumber);
 			red =Math.floor(Math.random()*11)+1;
@@ -92,7 +106,7 @@ $(document).ready(function(){
 			totalguess=0;
 			$("#totalguess").html(totalguess);
 			win++;
-			$("#wins").html(win);
+			$("#wins").html("Wins: "+" "+win);
 			randnumber =Math.floor(Math.random()*101)+19;
 			$("#random").html(randnumber);
 			pink =Math.floor(Math.random()*11)+1;
@@ -103,7 +117,7 @@ $(document).ready(function(){
 			totalguess=0;
 			$("#totalguess").html(totalguess);
 			losses++;
-			$("#losses").html(losses);
+			$("#losses").html("Losses:" + " " + losses);
 			 randnumber =Math.floor(Math.random()*101)+19;
 			$("#random").html(randnumber);
 			pink =Math.floor(Math.random()*11)+1;
@@ -128,7 +142,7 @@ $(document).ready(function(){
 			totalguess=0;
 			$("#totalguess").html(totalguess);
 			win++;
-			$("#wins").html(win);
+			$("#wins").html("Wins: "+" "+win);
 			randnumber =Math.floor(Math.random()*101)+19;
 			$("#random").html(randnumber);
 			green =Math.floor(Math.random()*11)+1;
@@ -139,7 +153,7 @@ $(document).ready(function(){
 			totalguess=0;
 			$("#totalguess").html(totalguess);
 			losses++;
-			$("#losses").html(losses);
+			$("#losses").html("Losses:" + " " + losses);
 			 randnumber =Math.floor(Math.random()*101)+19;
 			$("#random").html(randnumber);
 			green =Math.floor(Math.random()*11)+1;
