@@ -1,5 +1,5 @@
-$(document).ready(function(){
 
+$(document).ready(function(){
 
 	// Gets Link for Theme Song
 	        var audioElement = document.createElement('audio');
